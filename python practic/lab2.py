@@ -1,4 +1,5 @@
-print(len(input('Введите предложение: ').split()))
+
+#print(len(i for i in input('Введите предложение: ').split()))
 
 str = input('Введите строку: ')
 word = input('Введите слово которое нужно найти: ')
