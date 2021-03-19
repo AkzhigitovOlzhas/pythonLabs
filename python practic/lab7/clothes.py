@@ -5,7 +5,8 @@ class Clothes:
         self.__number_of_pairs = int(number_of_pairs)
 
     def is_couple(self):
-        if self.__quantity == 0 and self.__number_of_pairs > 0:
+        if self.__quantity \
+                == 0 and self.__number_of_pairs > 0:
             return True
         else:
             return False
